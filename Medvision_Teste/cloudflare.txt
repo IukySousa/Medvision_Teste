@@ -1,0 +1,23 @@
+Token criado com sucesso
+
+calm-rice-a65e
+
+ID da conta:
+f9e9761174df73af443a1ef8c9988cdd
+
+Seu token de API:
+cfat_xq3OwgHNnHOWYfo5YTC8eoC2NZHjaX3dX3pvKtgHd074c02f
+
+Access Key ID:
+2c6e71eaa2f544ea451e0e379c8ed291
+
+Secret Access Key:
+20e030730ff28705991c5ce550fa0277b2559298b35f7f2c2d6b94b7ad08cf7e
+
+S3 API endpoint:
+https://f9e9761174df73af443a1ef8c9988cdd.r2.cloudflarestorage.com
+
+Exemplo de uso:
+
+curl -X GET "https://api.cloudflare.com/client/v4/accounts/f9e9761174df73af443a1ef8c9988cdd/tokens/verify" \
+  -H "Authorization: Bearer cfat_xq3OwgHNnHOWYfo5YTC8eoC2NZHjaX3dX3pvKtgHd074c02f"

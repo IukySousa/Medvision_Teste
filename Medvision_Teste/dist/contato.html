@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Mesma fonte e estilos da landing page para manter consistência visual. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Mesmo favicon da landing page para manter a identidade entre páginas. -->
+  <link rel="icon" href="med_vision.ico" sizes="any">
+  <title>Fale com um especialista — MedVision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+  <!-- Página estática: o formulário organiza a interface, mas onsubmit impede qualquer envio. -->
+  <main class="contact-layout">
+    <!-- Painel esquerdo: identidade da marca, contexto e retorno à apresentação. -->
+    <section class="contact-intro">
+      <a class="contact-logo" href="index.html" aria-label="Voltar para a MedVision"><img src="Imagens/medvision-logo-transparent.png" alt="MedVision"></a>
+      <div class="contact-copy"><p class="eyebrow">MEDVISION PRO</p><h1>Vamos falar sobre<br>o seu <em>cenário.</em></h1><p>Conte um pouco sobre sua instituição. Nossa equipe entrará em contato para apresentar o MedVision Pro de acordo com sua realidade.</p></div>
+      <a class="back-link" href="index.html">← Voltar para o produto</a>
+    </section>
+    <!-- Painel direito: campos de cadastro de demonstração, sem backend. -->
+    <section class="contact-form-panel">
+      <form class="contact-form" action="#" onsubmit="return false">
+        <div><p class="eyebrow">SOLICITE UMA DEMONSTRAÇÃO</p><h2>Fale com um especialista.</h2><p class="form-intro">Preencha os dados abaixo. Este formulário é apenas demonstrativo e não envia informações.</p></div>
+        <div class="form-grid"><label>Nome completo<input type="text" name="nome" placeholder="Como podemos chamar você?"></label><label>E-mail corporativo<input type="email" name="email" placeholder="voce@instituicao.com.br"></label><label>Instituição<input type="text" name="instituicao" placeholder="Nome da instituição"></label><label>Cargo<input type="text" name="cargo" placeholder="Seu cargo"></label></div>
+        <label>Como podemos ajudar?<select name="interesse"><option value="">Selecione uma opção</option><option>Demonstração do MedVision Pro</option><option>Integração hospitalar</option><option>Parceria institucional</option><option>Outro assunto</option></select></label>
+        <label>Mensagem <textarea name="mensagem" rows="4" placeholder="Conte brevemente sobre seu cenário."></textarea></label>
+        <button class="form-button" type="submit">Enviar solicitação <span>→</span></button>
+        <p class="form-note">Ao continuar, você concorda com o contato da equipe MedVision. Nenhum dado é enviado nesta demonstração.</p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
